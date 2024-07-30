@@ -1,0 +1,15 @@
+/* Section.css */
+.rounded-circle {
+  max-width: 100%;
+  height: auto;
+}
+
+.description-title {
+  font-size: 4rem; /* Example size for the title */
+}
+
+.typewriter-text {
+  font-size: 1rem;
+  height: auto; /* Example size for the typewriter text */
+  color: #7a7779; /* You can adjust the color if needed */
+}

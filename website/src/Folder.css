@@ -1,0 +1,33 @@
+/* Folder.css */
+.folder-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.folder-bar {
+  background-color: #f4f4f4;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.folder-name {
+  font-weight: bold;
+}
+
+.folder-content {
+  padding: 2rem;
+  max-height: 300px; /* Adjust this to your desired max height */
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 1;
+}
+
+.folder-container.closed .folder-content {
+  max-height: 0;
+  opacity: 0;
+  padding: 0;
+  overflow: hidden;
+}

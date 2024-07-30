@@ -1,0 +1,57 @@
+/* HealthBar.css */
+.health-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between image and bar */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.language-image {
+  width: 50px; /* Initial size */
+  height: 50px; /* Initial size */
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.health-bar {
+  flex: 1; /* Allow the bar to grow */
+  height: 30px; /* Height of the health bar */
+  background-color: #ddd; /* Background color of the bar */
+  border-radius: 15px; /* Rounded corners */
+  position: relative;
+}
+
+.health-bar-fill {
+  height: 100%;
+  background-color: #4caf50; /* Fill color of the bar */
+  border-radius: 15px; /* Rounded corners */
+  transition: width 2s ease-in-out; /* Smooth transition */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .health-bar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .language-image {
+    width: 40px; /* Adjust size for smaller screens */
+    height: 40px; /* Adjust size for smaller screens */
+  }
+
+  .health-bar {
+    width: 100%; /* Full width on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .language-image {
+    width: 30px; /* Adjust size for extra small screens */
+    height: 30px; /* Adjust size for extra small screens */
+  }
+
+  .health-bar {
+    height: 25px; /* Adjust height for extra small screens */
+  }
+}
