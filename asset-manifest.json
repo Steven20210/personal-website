@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.432c4c87.css",
-    "main.js": "/personal-website/static/js/main.9755cf14.js",
+    "main.css": "/personal-website/static/css/main.4430554c.css",
+    "main.js": "/personal-website/static/js/main.752a177d.js",
     "static/js/453.bb828c5d.chunk.js": "/personal-website/static/js/453.bb828c5d.chunk.js",
-    "static/media/background.jpg": "/personal-website/static/media/background.dbc135fd6ae57370bc1c.jpg",
     "static/media/emojimeet.png": "/personal-website/static/media/emojimeet.7a6c1faed5a0babe3efc.png",
     "static/media/rainchecker.jpg": "/personal-website/static/media/rainchecker.df11140b3092fb838189.jpg",
-    "static/media/steven_resume_web.pdf": "/personal-website/static/media/steven_resume_web.9c9ed0903d126a021111.pdf",
     "static/media/mangometer.png": "/personal-website/static/media/mangometer.8733c5ac66e1dd1d8d99.png",
     "static/media/steven_photo.jpg": "/personal-website/static/media/steven_photo.5e7537be461a23cd16e9.jpg",
     "index.html": "/personal-website/index.html",
-    "main.432c4c87.css.map": "/personal-website/static/css/main.432c4c87.css.map",
-    "main.9755cf14.js.map": "/personal-website/static/js/main.9755cf14.js.map",
+    "main.4430554c.css.map": "/personal-website/static/css/main.4430554c.css.map",
+    "main.752a177d.js.map": "/personal-website/static/js/main.752a177d.js.map",
     "453.bb828c5d.chunk.js.map": "/personal-website/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.432c4c87.css",
-    "static/js/main.9755cf14.js"
+    "static/css/main.4430554c.css",
+    "static/js/main.752a177d.js"
   ]
 }
